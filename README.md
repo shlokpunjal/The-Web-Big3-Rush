@@ -8,7 +8,7 @@ In the last semester of my diploma, HTML & CSS were part of the curriculum (MSBT
 I just completed till Day 03 that time.
 
 Fortunately, turns out that I didn't even need the JS. 
-While everyone else rushed to add features, (few lacked CSS, let alone JS), I was the only one who actually pushed the CSS. Clean layout, real visual polish, deliberate design choices. That was the differentiator. I won with pure HTML and CSS. 
+While everyone else rushed to add features, (few lacked CSS, let alone JS), I was the only one who actually pushed the CSS. Clean layout, real visual polish, deliberate design choices. That was the differentiator. I won with pure HTML and CSS. The Website - [Social Media Effects](https://shlok114.github.io/Social-Media-Effects/)
 
 But the sprint wasn't wasted, it reminded me that fundamentals done well beat half-baked complexity every time. And now, with the competition in the past, I'm finishing what I started. Days 4 through 10 are about genuinely understanding JavaScript — not for a deadline, just because the web deserves to be built properly.
 
