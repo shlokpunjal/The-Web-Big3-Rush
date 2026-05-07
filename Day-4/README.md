@@ -37,7 +37,7 @@ card.innerHTML = ...  →  browser parses the string and renders real HTML eleme
 ```
 dev-card/
 ├── index.html    (one empty div, links to CSS and JS)
-├── style.css     (card layout, header/body split, hover states)
+├── style.css    (card layout, header/body split, hover states)
 └── script.js     (devData object + buildCard function)
 ```
 
