@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lexend:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 40vw;
+    font-family: "Google Sans", sans-serif;
+    background-color: #1a2e1a;
+    color: #e8f5e8;
+    border-radius: 3vw;
+    box-shadow: 2px 2px 4px #141414;
+    transition: all 0.3s ease-in-out;
+}
+
+#card:hover{
+    transform: translateY(-8px);
+}
+
+#card-header{
+    background-color: #011801;
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    padding: 2vw;
+}
+
+#card-header h1 {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2c2a2a;
+    color: rgb(197, 197, 197);
+    box-shadow: 2px 2px 4px #122012;
+}
+
+#card-header h2 {
+    margin-top: 12px;
+}
+
+#metadata {
+    font-family: "Lexend";
+    margin-top: 4px;
+    color: #cdd8cd;
+}
+
+#card-body{
+    padding: 2vw;
+    padding-bottom: 3vw;
+}
+
+#bio {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+#skills {
+    margin: 8px 0;
+    font-family: "Lexend";
+    font-size: 14px;
+}
+
+#skills .skill{
+    background-color: #2d5a1b;
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 34px;
+    transition: all 0.3s ease;
+    border: 1px solid #2d5a1b;
+    margin-right: 2px;
+}
+
+#skills .skill:hover{
+    border: 1px solid #2d5a1b;
+    background-color: #0e2405;
+    cursor: default;
+}
+
+#card-body hr {
+    margin: 18px 0;
+    border: 1px solid #2a4a2a;
+}
+
+#card-body a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 4px;
+    padding: 2px 12px;
+    border: 1px solid #3a7a20;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#card-body a:hover{
+    background-color: #3a7a20;
+}
