@@ -27,17 +27,16 @@ A Dev Card whose content is entirely built by JavaScript at runtime
 
 ## How it works
 ```
-devData object        →  holds all card content (name, bio, skills, links)
+devData object        →  holds all card content
 buildCard() called    →  constructs an HTML string using template literals
-${devData.skills.map(...).join("")}  →  transforms skills array into span elements
 card.innerHTML = ...  →  browser parses the string and renders real HTML elements
 ```
 
 ## File structure
 ```
 dev-card/
-├── index.html    (one empty div, links to CSS and JS)
-├── style.css    (card layout, header/body split, hover states)
+├── index.html    (just an empty div)
+├── style.css    (styling)
 └── script.js     (devData object + buildCard function)
 ```
 
