@@ -34,7 +34,7 @@ card.innerHTML = ...  →  browser parses the string and renders real HTML eleme
 
 ## File structure
 ```
-dev-card/
+Day-4/
 ├── index.html    (just an empty div)
 ├── style.css    (styling)
 └── script.js     (devData object + buildCard function)
