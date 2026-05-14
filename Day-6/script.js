@@ -14,7 +14,7 @@ for (let index = 0; index < notes.length; index++) {
 
     const delBtn = document.createElement('button')
     delBtn.classList.add('delete')
-    delBtn.textContent = 'X'
+    delBtn.textContent = 'x'
 
     container.appendChild(note)
     note.appendChild(text)
